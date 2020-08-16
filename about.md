@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Sobre Matheus Ortiz
+title: Matheus Ortiz | Sobre
 ---
 # About page
 
