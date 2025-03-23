@@ -1,4 +1,45 @@
+title: Matheus Ortiz
+description: Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+baseurl: ""
+url: "http://matheusortiz.github.io"
 
-title: Página do Ortiz
-description: Página pessoal do Matheus Ortiz.
-name: Matheus Ortiz
+
+theme: cvless
+
+taglong: Soluções em TI
+tagshort: Ortiz TI
+cv: true
+
+author:
+  name: Matheus Ortiz
+  email: matheus7@gmail.com
+photo: assets/files/photo.jpg
+address: União da Vitória/PR
+phone: +55 42 999536507
+
+# profile links
+profile:
+  facebook: https://www.facebook.com/matheusortiz
+  instagram: https://www.instagram.com/instadoortiz
+  linkedin: https://www.linkedin.com/in/matheusortiz
+  github: https://github.com/matheusortiz
+  stackoverflow: https://stackoverflow.com/users/13330693/matheus
+  medium: https://medium.com/@matheus7
+
+# build settings
+permalink: pretty
+exclude:
+  - LICENSE
+  - README.md
+  - Gemfile
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+sass:
+  sourcemap: never
+  
