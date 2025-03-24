@@ -5,6 +5,7 @@ url: "http://matheusortiz.github.io"
 
 
 theme: cvless
+remote_theme: https://github.com/piazzai/cvless
 
 taglong: Soluções em TI
 tagshort: Ortiz TI
