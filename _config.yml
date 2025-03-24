@@ -4,7 +4,7 @@ baseurl: ""
 url: "http://matheusortiz.github.io"
 
 
-theme: cvless
+theme: null
 remote_theme: https://github.com/piazzai/cvless
 
 taglong: Soluções em TI
@@ -40,6 +40,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-remote-theme
 
 sass:
   sourcemap: never
