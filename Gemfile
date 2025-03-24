@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.4.1"
-gem "cvless"
+gem "jekyll", "3.10.0"
+gem "cvless", git: "https://github.com/piazzai/cvless"
 gem "erb"
 
 group :jekyll_plugins do
