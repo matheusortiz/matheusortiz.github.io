@@ -1,10 +1,9 @@
 title: Matheus Ortiz
-description: Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+description: Profissional de TI especializado em soluções tecnológicas, desenvolvimento de software e consultoria em tecnologia da informação.
 baseurl: ""
-url: "http://matheusortiz.github.io"
+url: "https://matheusortiz.github.io"
 
-
-remote_theme: https://github.com/piazzai/cvless
+remote_theme: piazzai/cvless
 
 taglong: Soluções em TI
 tagshort: Ortiz TI
@@ -17,6 +16,9 @@ photo: assets/files/photo.jpg
 address: União da Vitória/PR
 phone: +55 42 999536507
 
+lang: pt-BR
+timezone: America/Sao_Paulo
+
 # profile links
 profile:
   facebook: https://www.facebook.com/matheusortiz
@@ -26,12 +28,18 @@ profile:
   stackoverflow: https://stackoverflow.com/users/13330693/matheus
   medium: https://medium.com/@matheus7
 
-# build settings
+
 permalink: pretty
+
 exclude:
   - LICENSE
   - README.md
   - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
 
 plugins:
   - jekyll-feed
@@ -43,4 +51,3 @@ plugins:
 
 sass:
   sourcemap: never
-  
