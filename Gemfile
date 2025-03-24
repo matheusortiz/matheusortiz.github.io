@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "jekyll", "3.10.0"
-gem "cvless", git: "https://github.com/piazzai/cvless"
+
 gem "erb"
 gem "jekyll-remote-theme"
 

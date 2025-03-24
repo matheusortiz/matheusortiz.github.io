@@ -4,7 +4,6 @@ baseurl: ""
 url: "http://matheusortiz.github.io"
 
 
-theme: null
 remote_theme: https://github.com/piazzai/cvless
 
 taglong: Soluções em TI
