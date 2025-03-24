@@ -4,7 +4,7 @@ baseurl: ""
 url: "http://matheusortiz.github.io"
 
 
-
+theme: cvless
 
 taglong: Soluções em TI
 tagshort: Ortiz TI
